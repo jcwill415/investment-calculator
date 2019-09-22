@@ -19,7 +19,7 @@ double investment_models::calc_ROI(double gain, double cost) {
     return(roi);
 }
 
-double investment_Models::calc_NPV(double time, double discount, double cost) {
+double investment_models::calc_NPV(double time, double discount, double cost) {
     /*
     NPV = Cash/(1+r)^t - Cost
     */   
